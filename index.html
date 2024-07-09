@@ -1,0 +1,63 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Validation</title>
+        <script src="JS/validation.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    </head>
+
+    <body>
+        <div class="name">
+            <h1 class="align">Registration</h1>
+        </div>
+        <div class="parent-container">
+            <form>
+                    <h2>Personal Details</h2>
+                    <div class="fields">
+                        <label for="first-name">First Name</label>
+                        <input type="text" placeholder="Enter your First Name" id="first-name">
+                    </div>
+                    <div class="fields">
+                        <label for="middle-name">Middle Name</label>
+                        <input type="text" placeholder="Enter your Middle Name" id="middle-name">
+                    </div>
+                    <div class="fields">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" placeholder="Enter your Last Name" id="last-name">
+                    </div>
+
+                    <div class="fields">
+                        <label class="gender-label" for="Gender">Gender</label>
+                        <div class="radio-div">
+                            <input type="radio" class="radio-input gender" id="male" value="Male" name="gender">
+                            <label for="male" class="radio-labels">Male</label>
+                        </div>
+
+                        <div class="radio-div">
+                            <input type="radio" class="radio-input radio-input2 gender" id="female" value="Female" name="gender">
+                            <label for="female" class="radio-labels">Female</label>
+                        </div>
+
+                        <div class="radio-div">
+                            <input type="radio" class="radio-input radio-input3 gender" id="transgender" value="transgender" name="gender">
+                            <label for="transgender" class="radio-labels">Transgender</label>
+                        </div>
+                    </div>
+
+                    <div class="fields">
+                        <label for="email-id">Email-Id</label>
+                        <input type="email" placeholder="Enter your Mail-Id" id="email-id">
+                    </div>
+
+                    <div class="fields">
+                        <label for="mobile-no">Mobile-No</label>
+                        <input type="number" placeholder="Enter your Mobile No" id="mobile-no">
+                    </div>
+
+                    <div class="submit-button">
+                        <button type="submit" class="submit-button" onclick="submitEvent()">Submit</button>
+                    </div>
+            </form>
+        </div>
+    </body>
+</html>
